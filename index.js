@@ -1,10 +1,10 @@
-const express = required('express');
+const express = require('express');
 
 const app = express();
 
 
 app.get('/', function (req, res) {
-    res.send('Hello world');
+    res.send('Hello world!');
 });
 
 
